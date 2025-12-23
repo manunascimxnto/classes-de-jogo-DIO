@@ -1,34 +1,34 @@
-# 🧙‍♂️ Classes de Jogo (DIO)
+# 🧙‍♂️ Game Classes
 
-Este projeto foi desenvolvido como parte de um **bootcamp da [Digital Innovation One (DIO)](https://www.dio.me/)** em *2023*.  
-O objetivo era praticar conceitos básicos de programação em **JavaScript**, como variáveis, operadores, laços de repetição, estruturas de decisão, funções, classes e objetos.
-
----
-
-## 🎯 Objetivo
-
-Criar uma classe genérica que represente um herói de uma aventura, com as seguintes propriedades:
-
-- `nome`
-- `idade`
-- `tipo` (ex: guerreiro, mago, monge, ninja)
-
-Além disso, implementar um método chamado **`atacar()`**, que exibe uma mensagem personalizada de acordo com o tipo do herói:
-
-- mago → *usou magia*  
-- guerreiro → *usou espada*  
-- monge → *usou artes marciais*  
-- ninja → *usou shuriken*  
+> This project was developed as part of the bootcamp **Programação do Zero (Programming from Scratch)**, by [Digital Innovation One (DIO)](https://www.dio.me/)**, carried out in *2023*. The goal was to practice basic programming concepts in **JavaScript**, such as variables, operators, loops, decision structures, functions, classes, and objects.
 
 ---
 
-## 🚀 Exemplo de uso
+## 🛠️ Skills developed in the bootcamp:
+- Programming Logic
+- Problem Solving
+- JavaScript
+- Git
+- GitHub
+- Agile Methodologies (Scrum)
 
-```javascript
-const heroi1 = new Heroi("Arthus", 30, "guerreiro");
-console.log(heroi1.atacar());
-// Saída: "O guerreiro atacou usando usou espada"
+## 🎯 Goal
 
-const heroi2 = new Heroi("Merlin", 150, "mago");
-console.log(heroi2.atacar());
-// Saída: "O mago atacou usando usou magia"
+Create a generic class that represents a hero in an adventure, with the following properties:
+
+- `name`
+- `age`
+- `type` (e.g., warrior, mage, monk, ninja)
+
+In addition, implement a method called **`attack()`**, which displays a personalized message according to the hero’s type: 
+
+- mage → *used magic*
+- warrior → *used sword*
+- monk → *used martial arts*
+- ninja → *used shuriken*
+
+--- 
+
+## 🚀 Usage Example
+
+```javascript const hero1 = new Heroi("Arthus", 30, "warrior"); console.log(hero1.attack()); // Output: "The warrior attacked using sword" const hero2 = new Heroi("Merlin", 150, "mage");
