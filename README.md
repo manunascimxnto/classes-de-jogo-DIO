@@ -6,12 +6,7 @@
 
 ## 🛠️ Skills developed in the bootcamp:
 
-![Programming Logic](https://img.shields.io/badge/Programming%20Logic-blue)  
-![Problem Solving](https://img.shields.io/badge/Problem%20Solving-green)  
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow)  
-![Git](https://img.shields.io/badge/Git-orange)  
-![GitHub](https://img.shields.io/badge/GitHub-black)  
-![Agile Methodologies (Scrum)](https://img.shields.io/badge/Agile%20Methodologies%20(Scrum)-purple)
+![Programming Logic](https://img.shields.io/badge/Programming%20Logic-blue) ![Problem Solving](https://img.shields.io/badge/Problem%20Solving-green) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Git](https://img.shields.io/badge/Git-orange) ![GitHub](https://img.shields.io/badge/GitHub-black) ![Agile Methodologies (Scrum)](https://img.shields.io/badge/Agile%20Methodologies%20(Scrum)-purple)
 
 ## 🎯 Goal
 
@@ -33,10 +28,10 @@ In addition, implement a method called **`attack()`**, which displays a personal
 ## 🚀 Usage Example
 
 ```javascript
-const heroi1 = new Heroi("Arthus", 30, "guerreiro");
-console.log(heroi1.atacar());
-// Saída: "O guerreiro atacou usando usou espada"
+const hero1 = new Hero("Arthus", 30, "warrior");
+console.log(hero1.attack());
+// Output: "The warrior attacked using sword"
 
-const heroi2 = new Heroi("Merlin", 150, "mago");
-console.log(heroi2.atacar());
-// Saída: "O mago atacou usando usou magia"
+const hero2 = new Hero("Merlin", 150, "mage");
+console.log(hero2.attack());
+// Output: "The mage attacked using magic"
