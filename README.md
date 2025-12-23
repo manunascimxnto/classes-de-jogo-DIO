@@ -1,37 +1,34 @@
-# 3️⃣ classes-de-jogo-DIO
+# 🧙‍♂️ Classes de Jogo (DIO)
 
-**O Que deve ser utilizado**
+Este projeto foi desenvolvido como parte de um **bootcamp da [Digital Innovation One (DIO)](https://www.dio.me/)** em *2023*.  
+O objetivo era praticar conceitos básicos de programação em **JavaScript**, como variáveis, operadores, laços de repetição, estruturas de decisão, funções, classes e objetos.
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
-- Funções
-- Classes e Objetos
+---
 
-## Objetivo:
+## 🎯 Objetivo
 
-Criar uma classe generica que represente um herói de uma aventura e que possua as seguintes propriedades:
+Criar uma classe genérica que represente um herói de uma aventura, com as seguintes propriedades:
 
-- nome
-- idade
-- tipo (ex: guerreiro, mago, monge, ninja )
+- `nome`
+- `idade`
+- `tipo` (ex: guerreiro, mago, monge, ninja)
 
-além disso, deve ter um método chamado atacar que deve atender os seguientes requisitos:
+Além disso, implementar um método chamado **`atacar()`**, que exibe uma mensagem personalizada de acordo com o tipo do herói:
 
-- exibir a mensagem: "o {tipo} atacou usando {ataque}")
-- aonde o {tipo} deve ser concatenando o tipo que está na propriedade da classe
-- e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
+- mago → *usou magia*  
+- guerreiro → *usou espada*  
+- monge → *usou artes marciais*  
+- ninja → *usou shuriken*  
 
-se mago -> no ataque exibir (usou magia)
-se guerreiro -> no ataque exibir (usou espada)
-se monge -> no ataque exibir (usou artes marciais)
-se ninja -> no ataque exibir (usou shuriken)
+---
 
-## Saída
+## 🚀 Exemplo de uso
 
-Ao final deve se exibir uma mensagem:
+```javascript
+const heroi1 = new Heroi("Arthus", 30, "guerreiro");
+console.log(heroi1.atacar());
+// Saída: "O guerreiro atacou usando usou espada"
 
-- "o {tipo} atacou usando {ataque}"
-  ex: mago atacou usando magia
-  guerreiro atacou usando espada
+const heroi2 = new Heroi("Merlin", 150, "mago");
+console.log(heroi2.atacar());
+// Saída: "O mago atacou usando usou magia"
