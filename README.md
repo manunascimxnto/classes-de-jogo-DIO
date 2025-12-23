@@ -1,6 +1,6 @@
 # 🧙‍♂️ Game Classes
 
-> This project was developed as part of the bootcamp **Programação do Zero (Programming from Scratch)**, by [Digital Innovation One (DIO)](https://www.dio.me/)**, carried out in *2023*. The goal was to practice basic programming concepts in **JavaScript**, such as variables, operators, loops, decision structures, functions, classes, and objects.
+> This project was developed as part of the bootcamp **Programação do Zero (Programming from Scratch)**, by **[Digital Innovation One (DIO)](https://www.dio.me/)**, carried out in *2023*. The goal was to practice basic programming concepts in **JavaScript**, such as variables, operators, loops, decision structures, functions, classes, and objects.
 
 ---
 
